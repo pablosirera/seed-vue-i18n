@@ -1,23 +1,14 @@
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
 
+import esData from '../data/es.json'
+import enData from '../data/en.json'
+
 Vue.use(VueI18n)
 
 const messages = {
-  es: {
-    hello: {
-      world: 'Hola Mundo!'
-    },
-    spanish: 'Español',
-    english: 'Inglés'
-  },
-  en: {
-    hello: {
-      world: 'Hello World!'
-    },
-    spanish: 'Spanish',
-    english: 'English'
-  }
+  es: esData,
+  en: enData
 }
 export const i18n = new VueI18n({
   locale: 'es',
