@@ -48,12 +48,12 @@ export default {
 
 <style lang="scss" scoped>
 .button {
-  padding: 0.5rem 1rem;
+  padding: 1rem 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
   text-transform: capitalize;
-  font-size: 1rem;
+  font-size: 1.8rem;
   font-weight: 900;
   line-height: 110%;
   color: #fff;
@@ -77,21 +77,21 @@ export default {
   }
 
   &--color-1 {
-    background-color: #42b983;
+    background-color: $color-brand-1;
 
     &:hover {
-      color: #42b983;
-      border-color: #42b983;
+      color: $color-brand-1;
+      border-color: $color-brand-1;
       background-color: #fff;
     }
   }
 
   &--color-2 {
-    background-color: #2c3e50;
+    background-color: $color-brand-2;
 
     &:hover {
-      color: #2c3e50;
-      border-color: #2c3e50;
+      color: $color-brand-2;
+      border-color: $color-brand-2;
       background-color: #fff;
     }
   }

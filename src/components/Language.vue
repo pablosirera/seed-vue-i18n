@@ -50,6 +50,7 @@ export default {
   &__title {
     margin-top: 0;
     margin-bottom: 1rem;
+    font-size: 2.5rem;
     color: #42b983;
   }
 
