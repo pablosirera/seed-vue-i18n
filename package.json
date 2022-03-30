@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "vue": "^2.6.12",
-    "vue-i18n": "^8.22.4"
+    "vue-i18n": "^8.27.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.11",
@@ -23,7 +23,7 @@
     "lint-staged": "^10.5.3",
     "node-sass": "^4.14.1",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.12"
+    "vue-template-compiler": "^2.6.14"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
